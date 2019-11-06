@@ -2,8 +2,8 @@ import React from 'react'
 
 function Client() {
     return (
-      <div className="Client">
-        <input type="text" placeholder="Ingresa nombre del cliente"/>
+      <div className="Client mx-auto form-control" >
+        <input type="text"  placeholder="nombre"/>
       </div>
     );
   }
